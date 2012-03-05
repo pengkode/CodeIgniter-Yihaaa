@@ -14,7 +14,7 @@
         <![endif]-->
 
         <!-- Le styles -->
-        <link href="../assets/css/bootstrap.css" rel="stylesheet">
+        <link href="<?php echo $themes?>css/bootstrap.css" rel="stylesheet">
         <style type="text/css">
             body {
                 padding-top: 60px;
@@ -24,13 +24,13 @@
                 padding: 9px 0;
             }
         </style>
-        <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="<?php echo $themes?>css/bootstrap-responsive.css" rel="stylesheet">
 
         <!-- Le fav and touch icons -->
-        <link rel="shortcut icon" href="images/favicon.ico">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <link rel="shortcut icon" href="<?php echo $themes?>images/favicon.ico">
+        <link rel="apple-touch-icon" href="<?php echo $themes?>images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo $themes?>images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?php echo $themes?>images/apple-touch-icon-114x114.png">
     </head>
 
     <body>
@@ -134,19 +134,19 @@
         <!-- Le javascript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="../assets/js/jquery.js"></script>
-        <script src="../assets/js/bootstrap-transition.js"></script>
-        <script src="../assets/js/bootstrap-alert.js"></script>
-        <script src="../assets/js/bootstrap-modal.js"></script>
-        <script src="../assets/js/bootstrap-dropdown.js"></script>
-        <script src="../assets/js/bootstrap-scrollspy.js"></script>
-        <script src="../assets/js/bootstrap-tab.js"></script>
-        <script src="../assets/js/bootstrap-tooltip.js"></script>
-        <script src="../assets/js/bootstrap-popover.js"></script>
-        <script src="../assets/js/bootstrap-button.js"></script>
-        <script src="../assets/js/bootstrap-collapse.js"></script>
-        <script src="../assets/js/bootstrap-carousel.js"></script>
-        <script src="../assets/js/bootstrap-typeahead.js"></script>
+        <script src="<?php echo $themes?>js/jquery.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-transition.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-alert.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-modal.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-dropdown.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-scrollspy.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-tab.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-tooltip.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-popover.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-button.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-collapse.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-carousel.js"></script>
+        <script src="<?php echo $themes?>js/bootstrap-typeahead.js"></script>
 
     </body>
 </html>
