@@ -44,8 +44,7 @@
                     <?php if ( !isset($is_login) ): ?>
                         <div class="nav-collapse">
                             <ul class="nav">
-                                <li><a href="<?php echo site_url('backends/topic') ?>">Topic</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="<?php echo site_url('backends/users') ?>">User</a></li>
                             </ul>
                             <ul class="nav pull-right">
                                 <li class="dropdown">
