@@ -65,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container">
 
             <?php echo $content; ?>
 

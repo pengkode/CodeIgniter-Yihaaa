@@ -17,7 +17,7 @@ class Login extends Public_Controller
         $this->load->library('form_validation');
         //validate form input
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email');
-        $this->form_validation->set_rules('password', 'Password', 'trim|required|callback__check_login');
+        $this->form_validation->set_rules('password', 'Password', 'trim|required|md5|callback__check_login');
 
         if ( $this->form_validation->run() ) {
             redirect('backends/dashboard');
@@ -45,4 +45,5 @@ class Login extends Public_Controller
             return false;
         }
     }
+
 }
