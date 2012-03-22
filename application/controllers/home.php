@@ -3,13 +3,12 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Home extends Public_Controller{
 
     protected $tpl;
 
     function __construct() {
         parent::__construct();
-        $this->tpl['themes'] = base_url() . 'themes/bootstrap/';
     }
 
     public function index() {
